@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/basic_structute.html">Basic Structure</a></li>
+                <li><a href="/emphasis.html">Emphasis</a></li>
+                <li><a href="/heading.html">Heading</a></li>
+                <li><a href="/images.html">Images</a></li>
+                <li><a href="/links.html">Links</a></li>
+                <li><a href="/lists.html">Lists</a></li>
+                <li><a href="/paragraphs.html">Paragraphs</a></li>
+                <li><a href="/tables.html">Tables</a></li>
+                <li><a href="/forms.html">Forms</a></li>
+                <li><a href="/special_characters.html">Special Characters</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Forms</h1>
+   <form action="">
+    <!-- The fieldset is the wrapper of the form -->
+    <fieldset>
+        <!-- Legend is the header for the forms -->
+<legend>Profile info</legend>
+<label for="name">Your Name</label>
+<input type="text" name="name" id="name" placeholder="Enter Your Name">
+<br>
+<label for="email">Your Email</label>
+<input type="email" name="email" id="email" placeholder="your@email.com" required>
+<br>
+<label for="password">Password</label>
+<input type="password">
+<br>
+<label for="color">Color</label>
+<input type="color">
+<br><br>
+<label for="gender">Gender</label><br>
+<input type="radio" name="gender">Female<br>
+<input type="radio" name="gender">Male
+<br><br>
+<label for="">Type of computer</label><br>
+<input type="checkbox"> I have a laptop<br>
+<input type="checkbox"> I have a desktop
+<br><br>
+<label for="">Age</label>
+<select name="age" id="age">
+    <option value="0-20">0-20</option>
+    <option value="20-40">20-40</option>
+    <option value="40-60">40-60</option>
+    <option value="60+">60+</option>
+</select>
+<br><br>
+<label for="message">Message</label><br>
+<textarea name="message" id="message" cols="80" rows="10"></textarea>
+<br><br>
+<input type="submit" value="Save my info">
+<input type="reset" value="Clear that infor">
+    </fieldset>
+   </form>
+</body>
+
+</html>
